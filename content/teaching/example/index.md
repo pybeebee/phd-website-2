@@ -24,5 +24,3 @@ tags: []
 # Is this a featured talk? (true/false)
 featured: false
 ---
-
-https://math.mit.edu/research/highschool/primes/circle/mentors-circle.html
