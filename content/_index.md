@@ -14,7 +14,7 @@ sections:
   - block: portfolio
     id: publications
     content:
-      title: publications
+      title: Publications
       filters:
         folders:
           - publication
@@ -48,17 +48,16 @@ sections:
       filters:
         folders:
           - publication-old
-        exclude_featured: true
     design:
       columns: '2'
       view: citation
   - block: collection
-    id: talks
+    id: teaching
     content:
-      title: Recent & Upcoming Talks
+      title: Teaching
       filters:
         folders:
-          - event
+          - teaching
     design:
       columns: '2'
       view: compact
