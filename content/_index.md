@@ -56,11 +56,11 @@ sections:
     content:
       title: Teaching
       text: |2-
-        **Instructor, MIT PRIMES Circle,** Spring 2021, Spring 2022, Spring 2023  
+        **Instructor, Fundamentals of Group Theory, MIT PRIMES Circle,** 2021-2023  
         *Department of Mathematics, MIT, Cambridge, MA*  
-        Fundamentals of Group Theory  
 
-        bug
+        **Lab Assistant, 6.036 Introduction to Machine Learning,** Spring 2021
+        *Department of Electrical Engineering & Computer Science, MIT, Cambridge, MA*
     design:
       columns: '1'
       view: compact
