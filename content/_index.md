@@ -59,7 +59,7 @@ sections:
         **Instructor, Fundamentals of Group Theory, MIT PRIMES Circle,** 2021-2023  
         *Department of Mathematics, MIT, Cambridge, MA*  
 
-        **Lab Assistant, 6.036 Introduction to Machine Learning,** Spring 2021
+        **Lab Assistant, 6.036 Introduction to Machine Learning,** Spring 2021  
         *Department of Electrical Engineering & Computer Science, MIT, Cambridge, MA*
     design:
       columns: '1'
