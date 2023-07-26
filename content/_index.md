@@ -55,13 +55,13 @@ sections:
     id: teaching
     content:
       title: Teaching
-      text: '__Instructor, MIT PRIMES Circle,__ Spring 2021, Spring 2022, Spring 2023
-      _Department of Mathematics, MIT, Cambridge, MA_
+      text: '__Instructor, MIT PRIMES Circle,__ Spring 2021, Spring 2022, Spring 2023\
+      _Department of Mathematics, MIT, Cambridge, MA_\
       Fundamentals of Group Theory'
       #filters:
       #  folders:
       #    - teaching
-    #design:
-    #  columns: '1'
-    #  view: compact
+    design:
+      columns: '1'
+      view: compact
 ---
