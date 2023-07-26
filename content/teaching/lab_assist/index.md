@@ -1,12 +1,12 @@
 ---
-title: Instructor, MIT PRIMES Circle
+title: Lab Assistant, 6.036 Introduction to Machine Learning
 
 #event: Wowchemy Conference
 #event_url: https://example.org
 
-location: Department of Mathematics, MIT, Cambridge, MA
+location: Department of Electrical Engineering & Computer Science, MIT, Cambridge, MA\ Spring 2021
 
-summary: Fundamentals of Group Theory
+summary: 
 #abstract: ''
 
 # Talk start and end times.
