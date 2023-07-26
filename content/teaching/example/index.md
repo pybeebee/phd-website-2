@@ -48,7 +48,6 @@ url_video: ''
 #   Otherwise, set `projects = []`.
 #projects:
 #  - example
-projects = []
 ---
 
 {{% callout note %}}
