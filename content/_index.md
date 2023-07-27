@@ -16,10 +16,7 @@ sections:
     content:
       title: Publications
       text: |-
-        # {{% callout note %}}
         Find specific content by [searching publications](./publication/).
-        # Find relevant content by [searching publications](./publication/) or using the filters below.
-        # {{% /callout %}}
       filters:
         folders:
           - publication
@@ -38,7 +35,7 @@ sections:
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '2'
-      view: compact
+      view: citation
   - block: collection
     content:
       title: Recent Publications
@@ -62,6 +59,6 @@ sections:
         **Teaching Assistant, Fundamentals of Scientific Writing,** Summer 2019 
         *Research Science Institute (RSI), MIT, Cambridge, MA*
     design:
-      columns: '2'
+      columns: '1'
       view: compact
 ---
