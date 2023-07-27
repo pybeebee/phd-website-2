@@ -1,0 +1,19 @@
+# Theme metadata
+name = "kailitheme"
+
+[light]
+  # Primary
+  primary = "#f73653"         # Publications section button colors (cite, PDF, etc)
+  link = "#018a8a"            # link colors
+  link_hover = "#04b5b5"      # color when hover over link
+
+  # Menu
+  menu_primary = "#024442"        # nav bar color
+  menu_text = "#fff"              # Nav bar text colors
+  menu_text_active = "#008b8b"    # Nav bar 'Home' button color (whatever section you'recurrently on)
+  menu_title = "#fff"             # Name in nav bar color
+
+  # Backgrounds
+  background = "#f7f5f0"          # Same as odd sections?
+  home_section_odd = "f3eeee"     # Odd-indexed sections (e.g. About, Teaching)
+  home_section_even = "#f7f5f0"   # Even-indexed sections (e.g. Publications)

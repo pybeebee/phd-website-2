@@ -1,6 +1,7 @@
 ---
 # Display name
 title: Gabrielle Kaili-May Liu
+subtitle: (劉凱莉)
 
 # Full name (for SEO)
 first_name: Gabrielle
@@ -22,7 +23,7 @@ organizations:
     url: https://cpsc.yale.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: ''
 
 # Interests to show in About widget
 #interests:

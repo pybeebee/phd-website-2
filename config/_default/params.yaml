@@ -6,10 +6,10 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: minimal
-  font_size: L
+  theme_day: kailitheme
+  theme_night: kailitheme
+  font: kailitheme
+  font_size: M
 
 # SEO
 
@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Gabrielle Kaili-May Liu. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
