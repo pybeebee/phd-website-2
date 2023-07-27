@@ -15,6 +15,11 @@ sections:
     id: publications
     content:
       title: Publications
+      text: |-
+        {{% callout note %}}
+        Find specific content by [searching publications](./publication/).
+        #Find relevant content by [searching publications](./publication/) or using the filters below.
+        {{% /callout %}}
       filters:
         folders:
           - publication
@@ -28,29 +33,22 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
+        - name: Topic 1
+          tag: Tag 1
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
-      view: showcase
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
+      view: compact
   - block: collection
     content:
       title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
+      
       filters:
         folders:
           - publication-old
     design:
-      columns: '2'
-      view: citation
+      columns: '1'
+      view: compact
   - block: markdown
     id: teaching
     content:
@@ -61,6 +59,9 @@ sections:
 
         **Lab Assistant, 6.036 Introduction to Machine Learning,** Spring 2021  
         *Department of Electrical Engineering & Computer Science, MIT, Cambridge, MA*
+
+        **Teaching Assistant, Fundamentals of Scientific Writing,** Summer 2019 
+        *Research Science Institute (RSI), MIT, Cambridge, MA*
     design:
       columns: '2'
       view: compact
