@@ -14,9 +14,8 @@ sections:
   - block: collection
     id: publications
     content:
-      title: Publications
-      text: |-
-        Find specific content by [searching publications](./publication/).
+      title: 'Publications'
+      text: '*Find content quickly by [searching publications](./publication/).*'
       filters:
         folders:
           - publication-old
@@ -27,13 +26,13 @@ sections:
       # To show all items, set `tag` to "*".
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the toolbar, delete the entire `filter_button` block.
-      # buttons:
-      #  - name: All
-      #    tag: '*'
+      buttons:
+        - name: All
+          tag: '*'
       #  - name: Topic 1
       #    tag: Tag 1
     design:
-      columns: '1'
+      columns: '2'
       view: compact
   - block: markdown
     id: teaching
@@ -46,7 +45,7 @@ sections:
         **Lab Assistant, 6.036 Introduction to Machine Learning,** Spring 2021  
         *Department of Electrical Engineering & Computer Science, MIT, Cambridge, MA*
 
-        **Teaching Assistant, Fundamentals of Scientific Writing,** Summer 2019 
+        **Teaching Assistant, Fundamentals of Scientific Writing,** Summer 2019  
         *Research Science Institute (RSI), MIT, Cambridge, MA*
     design:
       columns: '1'

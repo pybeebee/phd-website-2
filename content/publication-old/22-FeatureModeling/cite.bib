@@ -1,0 +1,16 @@
+
+@InProceedings{pmlr-v162-schaeffer22a,
+  title =    {Streaming Inference for Infinite Feature Models},
+  author =       {Schaeffer, Rylan and Du, Yilun and Liu, Gabrielle Kaili-May and Fiete, Ila Rani},
+  booktitle =    {Proceedings of the 39th International Conference on Machine Learning},
+  pages =    {19366--19387},
+  year =   {2022},
+  editor =   {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
+  volume =   {162},
+  series =   {Proceedings of Machine Learning Research},
+  month =    {17--23 Jul},
+  publisher =    {PMLR},
+  pdf =    {https://proceedings.mlr.press/v162/schaeffer22a/schaeffer22a.pdf},
+  url =    {https://proceedings.mlr.press/v162/schaeffer22a.html},
+  abstract =   {Unsupervised learning from a continuous stream of data is arguably one of the most common and most challenging problems facing intelligent agents. One class of unsupervised models, collectively termed <em>feature models</em>, attempts unsupervised discovery of latent features underlying the data and includes common models such as PCA, ICA, and NMF. However, if the data arrives in a continuous stream, determining the number of features is a significant challenge and the number may grow with time. In this work, we make feature models significantly more applicable to streaming data by imbuing them with the ability to create new features, online, in a probabilistic and principled manner. To achieve this, we derive a novel recursive form of the Indian Buffet Process, which we term the <em>Recursive IBP</em> (R-IBP). We demonstrate that R-IBP can be be used as a prior for feature models to efficiently infer a posterior over an unbounded number of latent features, with quasilinear average time complexity and logarithmic average space complexity. We compare R-IBP to existing offline sampling and variational baselines in two feature models (Linear Gaussian and Factor Analysis) and demonstrate on synthetic and real data that R-IBP achieves comparable or better performance in significantly less time.}
+}
