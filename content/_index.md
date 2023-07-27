@@ -11,7 +11,7 @@ sections:
       title: About Me
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: portfolio
+  - block: collection
     id: publications
     content:
       title: Publications
@@ -19,7 +19,7 @@ sections:
         Find specific content by [searching publications](./publication/).
       filters:
         folders:
-          - publication
+          - publication-old
       # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
       default_button_index: 0
       # Filter toolbar (optional).
@@ -32,16 +32,6 @@ sections:
       #    tag: '*'
       #  - name: Topic 1
       #    tag: Tag 1
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
-      view: citation
-  - block: collection
-    content:
-      title: Recent Publications
-      filters:
-        folders:
-          - publication-old
     design:
       columns: '1'
       view: compact
