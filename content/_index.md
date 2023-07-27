@@ -11,11 +11,12 @@ sections:
       title: About Me
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: collection
+  - block: portfolio
     id: publications
     content:
       title: 'Publications'
-      text: '*Find content quickly by [searching publications](./publication/).*'
+      text: '*Find specific content by [searching publications](./publication/).*'
+#      text: '*Find specific content by [searching publications](./publication/) or using the filters below.*'
       filters:
         folders:
           - publication-old
@@ -29,8 +30,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
-      #  - name: Topic 1
-      #    tag: Tag 1
+        #- name: Topic 1
+        #  tag: AI ethics
     design:
       columns: '2'
       view: compact
@@ -39,15 +40,18 @@ sections:
     content:
       title: Teaching
       text: |2-
-        **Instructor, Fundamentals of Group Theory, MIT PRIMES Circle,** 2021-2023  
+        **Instructor, MIT PRIMES Circle,** 2021-2023  
         *Department of Mathematics, MIT, Cambridge, MA*  
+        Fundamentals of Group Theory  
 
         **Lab Assistant, 6.036 Introduction to Machine Learning,** Spring 2021  
-        *Department of Electrical Engineering & Computer Science, MIT, Cambridge, MA*
+        *Department of Electrical Engineering & Computer Science, MIT, Cambridge, MA*  
+        Faculty Supervisor: Dr. Tomás Lozano-Pérez  
 
-        **Teaching Assistant, Fundamentals of Scientific Writing,** Summer 2019  
-        *Research Science Institute (RSI), MIT, Cambridge, MA*
+        **Teaching Assistant, Research Science Institute (RSI),** Summer 2019  
+        *MIT, Cambridge, MA*  
+        Fundamentals of Scientific Writing
     design:
-      columns: '1'
+      columns: '2'
       view: compact
 ---

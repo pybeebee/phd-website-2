@@ -43,7 +43,7 @@ links:
 url_pdf: 'https://proceedings.mlr.press/v199/schaeffer22a/schaeffer22a.pdf'
 url_code: ''
 url_dataset: ''
-url_poster: 'https://github.com/pybeebee/phd-website-2/tree/main/content/publication-old/22-Clustering/poster.pdf'
+url_poster: 'https://drive.google.com/file/d/17OkQSgQDhM7FmT7H_fLQfzFX59OpogPe/view?usp=sharing'
 url_project: ''
 url_slides: ''
 url_source: ''

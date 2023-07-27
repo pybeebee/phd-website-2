@@ -23,8 +23,8 @@ abstract: "Is it possible for machines to think like humans? And if it is, how s
 # Summary. An optional shortened abstract.
 summary: 'This paper discusses the social implications of reinforcement learning with human feedback (RLHF), identifying key social and ethical issues and discussing social impacts for stakeholders. Seven impact areas are examined, including misinformation, AI value-alignment, bias, AI access, cross-cultural dialogue, industry, and workforce.'
 
-#tags:
-#- AI ethics
+tags:
+- AI ethics
 featured: false
 
 # Optional external URL for project (replaces project detail page).
@@ -39,7 +39,7 @@ url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: 'https://github.com/pybeebee/phd-website-2/tree/main/content/publication-old/23-RLHF/slides.pdf'
+url_slides: 'https://drive.google.com/file/d/1Mf1xo8kSKRUMTHbvxtpGQfpvtJdXqAGd/view?usp=sharing'
 url_source: ''
 url_video: ''
 

@@ -38,7 +38,7 @@ links:
 url_pdf: ''
 url_code: ''
 url_dataset: ''
-url_poster: 'https://github.com/pybeebee/phd-website-2/tree/main/content/publication-old/23-RR/RRPoster_Final.pdf'
+url_poster: 'https://drive.google.com/file/d/1jQ8qrvxfGt0xM6_IVPJQZcL8_Z5ibGdz/view?usp=sharing'
 url_project: ''
 url_slides: ''
 url_source: ''

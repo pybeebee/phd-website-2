@@ -40,7 +40,7 @@ links:
 url_pdf: 'https://journals.sagepub.com/doi/epub/10.1177/03010066211059887'
 url_code: ''
 url_dataset: ''
-url_poster: 'https://github.com/pybeebee/phd-website-2/tree/main/content/publication-old/21-Metacognition/poster.pdf'
+url_poster: 'https://drive.google.com/file/d/1_MXYX5PxDsgSXyNueKwUnN-gZM7njPKj/view?usp=sharing'
 url_project: ''
 url_slides: ''
 url_source: ''

@@ -42,7 +42,7 @@ links:
 url_pdf: 'https://proceedings.mlr.press/v162/schaeffer22a/schaeffer22a.pdf'
 url_code: ''
 url_dataset: ''
-url_poster: 'https://github.com/pybeebee/phd-website-2/tree/main/content/publication-old/22-FeatureModeling/poster.pdf'
+url_poster: 'https://drive.google.com/file/d/1jUEp9cznhiv0xoihxQc__97JCbgFfX-K/view?usp=sharing'
 url_project: ''
 url_slides: ''
 url_source: ''
