@@ -16,10 +16,10 @@ sections:
     content:
       title: Publications
       text: |-
-        {{% callout note %}}
+        # {{% callout note %}}
         Find specific content by [searching publications](./publication/).
-        #Find relevant content by [searching publications](./publication/) or using the filters below.
-        {{% /callout %}}
+        # Find relevant content by [searching publications](./publication/) or using the filters below.
+        # {{% /callout %}}
       filters:
         folders:
           - publication
@@ -30,19 +30,18 @@ sections:
       # To show all items, set `tag` to "*".
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Topic 1
-          tag: Tag 1
+      # buttons:
+      #  - name: All
+      #    tag: '*'
+      #  - name: Topic 1
+      #    tag: Tag 1
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: '2'
       view: compact
   - block: collection
     content:
       title: Recent Publications
-      
       filters:
         folders:
           - publication-old
