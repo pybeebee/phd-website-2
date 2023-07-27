@@ -16,7 +16,7 @@ sections:
     content:
       title: 'Publications'
       text: '*Find specific content by [searching publications](./publication/).*'
-#      text: '*Find specific content by [searching publications](./publication/) or using the filters below.*'
+#      text: '*Find specific content by [searching publications](./publication-old/) or using the filters below.*'
       filters:
         folders:
           - publication

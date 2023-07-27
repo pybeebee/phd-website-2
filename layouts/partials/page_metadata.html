@@ -17,7 +17,7 @@
   <span class="article-date">
     {{ $date := $page.Lastmod | time.Format site.Params.locale.date_format }}
     {{ if eq $page.Type "publication" }}
-      {{ $date = $page.Date | time.Format (site.Params.publications.date_format | default "January, 2006") }}
+      {{ $date = $page.Date | time.Format (site.Params.publications.date_format | default "2006") }}
     {{ else }}
       {{ if ne $page.Params.Lastmod $page.Params.Date }}
           {{ i18n "last_updated" }}
@@ -27,8 +27,7 @@
   </span>
   {{ end }}
 
-  {{/* if and (eq $is_list 1) (eq $page.Type "publication") */}}
-  {{ if 1 }}
+  {{ if (eq $is_list 1) }}
   <span class="middot-divider"></span>
   <span class="pub-publication">
     {{ if $page.Params.publication_short }}
