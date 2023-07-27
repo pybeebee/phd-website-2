@@ -19,7 +19,7 @@ sections:
 #      text: '*Find specific content by [searching publications](./publication/) or using the filters below.*'
       filters:
         folders:
-          - publication-old
+          - publication
       # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
       default_button_index: 0
       # Filter toolbar (optional).

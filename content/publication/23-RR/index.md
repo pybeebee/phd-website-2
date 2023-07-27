@@ -35,6 +35,8 @@ links:
 - name: Abstract
   text: test
   # url: http://example.org
+- name: Access Curriculum
+  url: https://robotrights.webflow.io/
 url_pdf: ''
 url_code: ''
 url_dataset: ''
