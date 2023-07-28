@@ -1,25 +1,32 @@
+//#################################################
 // TO CHANGE COLORS AND OTHER THINGS:
 // GO TO https://github.com/wowchemy/wowchemy-hugo-themes/blob/main/modules/wowchemy/assets/scss/wowchemy/layouts/ 
 // AND SEE THE CORRESPONDING .SCSS FILES TO FIND COMPONENTS OF THE PAGE TO CHANGE
+//#################################################
 
 
 
-// change nav bar text size (aside from full name part of nav bar)
+// CHANGE NAV BAR TEXT SIZE (aside from full name part of nav bar)
 .dropdown-menu,
 nav#navbar-main li.nav-item {
   font-size: 16px;
 }
 
-//h1 {font-size: 2.1rem; font-color: red;} // make "About Me" "Publications" etc smaller
+// MAKE "ABOUT ME" "PUBLICATION" ETC HEADINGS SMALLER
+//h1 {font-size: 2.1rem; font-color: red;} 
 
-//.portrait-title {h2 { font-size: 1.7em;}} // change name size
+// CHANGE NAME SIZE UNDER PORTRAIT PICTURE
+//.portrait-title {h2 { font-size: 1.7em;}}
   
-  //h3 { 
-  //  font-size: 0.96rem; // make PhD student line slightly smaller
-  //  font-weight: 300;
-  //}
+// MAKE PHD STUDENT LINE SLIGHTLY SMALLER
+//h3 { 
+//  font-size: 0.96rem; 
+//  font-weight: 300;
+//}
 
-.btn-toolbar { // Toolbar buttons
+
+// CENTER FILTER BUTTONS FOR PUBLICATIONS SECTION and also adjust spacing above/below
+.btn-toolbar { 
   justify-content: center;
   padding: 10px;
   margin-bottom: -2rem;
@@ -27,9 +34,11 @@ nav#navbar-main li.nav-item {
 
 
 
+//#################################################
 // LIGHT MODE
+//#################################################
 
-// topic filter buttons color
+// TOPIC FILTER BUTTONS COLORING
 .btn-primary {
     color: #fff;
     background-color: #0da68a;
@@ -47,7 +56,7 @@ nav#navbar-main li.nav-item {
   }
 } 
 
-// 'All' filter button color
+// 'ALL' FILTER BUTTON COLORING
 .btn-toolbar .btn.btn-primary:hover,
 .btn-toolbar .btn.btn-primary:focus {
   background-color: #018a8a !important; } // when mouse over any filter buttons (ANY!!)
@@ -62,24 +71,41 @@ nav#navbar-main li.nav-item {
   box-shadow: 0 0 0 0rem #42d6bb; }
 
 
-// color of PDF etc button text AFTER clicking and navigating back to the website
+// COLOR OF PDF, CITE, ETC BUTTONS TEXT AFTER clicking and navigating back to the website
 a { 
   &:focus {
     color: #f73653;           
   }
 }
 
-// search bar (whole-site in upper right corner) border color
+// WHOLE-SITE SEARCH BAR BORDER/SHADOW COLORING
 .form-control:focus {
   border-color: #018a8a;
   box-shadow: 0 0 0 0.2rem #018a8a;
 }
 
+// IN-PUBLICATION SEARCH BAR: change color when mouse over
+.form-control:hover {
+  border-color: #018a8a;
+  box-shadow: 0 0 0 0.2rem #018a8a;
+}
 
+// IN-PUBLICATION SEARCH DROPDOWN MENUS COLORING
+select.pub-filters.form-control.form-control-sm {
+  background-color: #fff;
+  &:hover {
+    border-color: #018a8a;
+    box-shadow: 0 0 0 0.2rem #018a8a;
+  }
+} 
+
+
+//#################################################
 // DARK MODE
+//#################################################
 // HELPFUL CUES: https://github.com/wowchemy/wowchemy-hugo-themes/blob/main/modules/wowchemy/assets/scss/wowchemy/_dark.scss
 
-// body text color
+// BODY TEXT COLOR
 body.dark,
 .dark .docs-toc-link,
 .dark .modal button.close,
@@ -87,12 +113,12 @@ body.dark,
   color: #EDEADE; // rgba(255, 255, 255, 0.87); //#f7f5f0;
 }
 
-// publication titles text color
+// PUBLICATION TITLES TEXT COLOR
 .dark .article-title a {
   color: #EDEADE //rgba(255, 255, 255, 0.88); //#f7f5f0;
 }
 
-// headings text color
+// HEADINGS TEXT COLOR
 .dark h1,
 .dark h2,
 .dark h3,
@@ -102,20 +128,14 @@ body.dark,
   color: #EDEADE //rgba(255, 255, 255, 0.9); //#f7f5f0;
 }
 
-// name text color under picture
+// NAME TEXT COLOR UNDER PORTRAIT PICTURE
 .dark .portrait-title h2 {
   color: #EDEADE //rgba(255, 255, 255, 0.9);//#f7f5f0;
 }
 
 .dark {
 
-  // search bar (whole-site in upper right corner) border color
-  .form-control:focus {
-    border-color: #0da68a;
-    box-shadow: 0 0 0 0.2rem #0da68a;
-  }
-
-  // filter button color (buttons OTHER THAN 'All')
+  // TOPIC FILTER BUTTONS COLORING
   .btn-primary {
     color: #fff;
     background-color: #0da68a;
@@ -132,7 +152,7 @@ body.dark,
     }
   }   
 
-  // 'All' filter button color
+  // 'ALL' FILTER BUTTON COLORING
   .btn-toolbar .btn.btn-primary:hover,
   .btn-toolbar .btn.btn-primary:focus {
     color: #fff;  
@@ -149,12 +169,12 @@ body.dark,
     box-shadow: 0 0 0 0rem #0da185; }
 
 
-  // Publication button text and background colors
+  // COLOR OF PDF, CITE, ETC BUTTONS TEXT
   .btn-links .btn { 
     color: #f73653;                   
     border-color: #f73653;           
     background-color: #191b1c;                
-    &:hover {
+    &:hover {                        // when mouse over
       color: #fff;    
       border-color: #f73653;           
       background-color: #f73653;       
@@ -165,24 +185,50 @@ body.dark,
       background-color: #f73653;
     }
   }
-}
 
-
-.dark {
-  #search-query {
-    outline-style: none;                            // Removes the default primary color outline
-  }
-  select.pub-filters.form-control.form-control-sm { // search filters on full publication list
-    background-color: #0da68a;
+  // WHOLE-SITE SEARCH BAR BORDER/SHADOW COLORING
+  .form-control:focus {
     border-color: #0da68a;
-    border-style: solid;
-    border-width: 1px;
+    box-shadow: 0 0 0 0.2rem #0da68a;
+  }
+
+  // IN-PUBLICATION SEARCH BAR COLORING
+  .form-control {             // at rest
+      outline-style: none; 
+      border-color: #0da68a;
+      background-color: #191b1c; 
+  }
+  .form-control:hover {       // have color border show up when mouse over menu field
+      border-color: #0da68a;
+      box-shadow: 0 0 0 0.2rem #0da68a;
+      // Deprecated function: have border vanish when mouse over menu field
+      // border-style: none;
+      }
+  .form-control:focus {       // after click on it
+      background-color: #191b1c; 
+    } 
+
+  // IN-PUBLICATION SEARCH DROPDOWN MENUS COLORING
+  select.pub-filters.form-control.form-control-sm { 
+    background-color: #191b1c;
     &:hover {
-      color: #fff;    
-      border-style: none;
+      border-color: #0da68a;
+      box-shadow: 0 0 0 0.2rem #0da68a;
     }
   }
 
-} 
+}
+
+
+
+  
+
+
+
+
+
+
+
+
 
 
