@@ -43,6 +43,8 @@ url_slides: 'https://drive.google.com/file/d/1Mf1xo8kSKRUMTHbvxtpGQfpvtJdXqAGd/v
 url_source: ''
 url_video: ''
 
+# description: "{{< spoiler text="Click to view the spoiler" >}} You found me! {{< /spoiler >}}"
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:

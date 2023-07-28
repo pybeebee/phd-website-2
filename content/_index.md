@@ -30,8 +30,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        #- name: Topic 1
-        #  tag: AI ethics
+        - name: Topic 1
+          tag: AI ethics
     design:
       columns: '2'
       view: compact
@@ -40,7 +40,7 @@ sections:
     content:
       title: Teaching
       text: |2-
-        **Instructor, MIT PRIMES Circle,** 2021-2023  
+        **Instructor, [MIT Menezes Challenge PRIMES Circle](https://math.mit.edu/research/highschool/primes/circle/),** 2021-2023  
         *Department of Mathematics, MIT, Cambridge, MA*  
         Fundamentals of Group Theory  
 
@@ -48,7 +48,7 @@ sections:
         *Department of Electrical Engineering & Computer Science, MIT, Cambridge, MA*  
         Faculty Supervisor: Dr. Tomás Lozano-Pérez  
 
-        **Teaching Assistant, Research Science Institute (RSI),** Summer 2019  
+        **Teaching Assistant, [Research Science Institute (RSI)](https://www.cee.org/programs/research-science-institute),** Summer 2019  
         *MIT, Cambridge, MA*  
         Fundamentals of Scientific Writing
     design:

@@ -2,3 +2,116 @@
 nav#navbar-main li.nav-item {
   font-size: 16px;
 }
+
+h1 {
+  font-size: 2rem;
+}
+
+.portrait-title {
+  h2 {
+  font-size: 1.7em;
+  }
+  
+  //h3 { 
+  //  font-size: 0.96rem; // make PhD student line slightly smaller
+  //  font-weight: 300;
+  //}
+}
+
+.btn-toolbar { // Toolbar buttons
+  justify-content: center;
+  padding: 10px;
+  .btn:first-child {
+      color: #fff;    // text when hovering
+      border-color: #0da68a;           // border when hovering
+      background-color: #0da68a;
+    }
+}
+
+
+// LIGHT MODE
+a {
+  &:active {
+    color: #f73653;      // link color when hovering
+  }
+}
+
+// filter button color
+.btn-primary {
+    color: #fff;
+    background-color: #0da68a;
+    border-color: #0da68a;
+    &:hover,
+    &:focus,
+    &:alert {
+      color: #fff;    
+      border-color: #0da68a;           
+      background-color: #0da68a;
+    }
+  }  
+
+
+// color of PDF etc button text AFTER clicking and navigating back to the website
+a { 
+  &:focus {
+    color: #f73653;           
+  }
+}
+
+
+// DARK MODE
+
+.dark {
+
+  // filter button color
+  .btn-primary {
+    color: #fff;
+    background-color: #0da68a;
+    border-color: #0da68a;
+    &:hover {
+      color: #fff;    
+      border-color: #0da68a;           
+      background-color: #0da68a;       
+    }
+    &:alert {
+      color: #fff;    
+      border-color: #0da68a;           
+      background-color: #0da68a;
+    }
+  }   
+
+  .btn-links .btn { 
+    color: #f73653;                   
+    border-color: #f73653;           
+    background-color: #191b1c;                
+    &:hover {
+      color: #fff;    
+      border-color: #f73653;           
+      background-color: #f73653;       
+    }
+    &:alert {
+      color: #fff;    
+      border-color: #f73653;           
+      background-color: #f73653;
+    }
+  }
+}
+
+
+.dark {
+  #search-query {
+    outline-style: none;                            // Removes the default primary color outline
+  }
+  select.pub-filters.form-control.form-control-sm { // search filters on full publication list
+    background-color: #0da68a;
+    border-color: #0da68a;
+    border-style: solid;
+    border-width: 1px;
+    &:hover {
+      color: #fff;    
+      border-style: none;
+    }
+  }
+} 
+
+
