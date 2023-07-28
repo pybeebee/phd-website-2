@@ -1,42 +1,35 @@
+// TO CHANGE COLORS AND OTHER THINGS:
+// GO TO https://github.com/wowchemy/wowchemy-hugo-themes/blob/main/modules/wowchemy/assets/scss/wowchemy/layouts/ 
+// AND SEE THE CORRESPONDING .SCSS FILES TO FIND COMPONENTS OF THE PAGE TO CHANGE
+
+
+
+// change nav bar text size (aside from full name part of nav bar)
 .dropdown-menu,
 nav#navbar-main li.nav-item {
   font-size: 16px;
 }
 
-h1 {
-  font-size: 2rem;
-}
+//h1 {font-size: 2.1rem; font-color: red;} // make "About Me" "Publications" etc smaller
 
-.portrait-title {
-  h2 {
-  font-size: 1.7em;
-  }
+//.portrait-title {h2 { font-size: 1.7em;}} // change name size
   
   //h3 { 
   //  font-size: 0.96rem; // make PhD student line slightly smaller
   //  font-weight: 300;
   //}
-}
 
 .btn-toolbar { // Toolbar buttons
   justify-content: center;
   padding: 10px;
-  .btn:first-child {
-      color: #fff;    // text when hovering
-      border-color: #0da68a;           // border when hovering
-      background-color: #0da68a;
-    }
+  margin-bottom: -2rem;
 }
+
 
 
 // LIGHT MODE
-a {
-  &:active {
-    color: #f73653;      // link color when hovering
-  }
-}
 
-// filter button color
+// topic filter buttons color
 .btn-primary {
     color: #fff;
     background-color: #0da68a;
@@ -48,7 +41,25 @@ a {
       border-color: #0da68a;           
       background-color: #0da68a;
     }
-  }  
+    &:active{
+    background-color: #0c947b; //0da68a
+    border-color: #0c947b;  
+  }
+} 
+
+// 'All' filter button color
+.btn-toolbar .btn.btn-primary:hover,
+.btn-toolbar .btn.btn-primary:focus {
+  background-color: #018a8a !important; } // when mouse over any filter buttons (ANY!!)
+
+.btn-toolbar .btn.btn-primary:active,
+.btn-toolbar .btn.btn-primary.active {
+  background-color: #0c947b !important; } // color All color
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0rem #42d6bb; }
 
 
 // color of PDF etc button text AFTER clicking and navigating back to the website
@@ -58,28 +69,92 @@ a {
   }
 }
 
+// search bar (whole-site in upper right corner) border color
+.form-control:focus {
+  border-color: #018a8a;
+  box-shadow: 0 0 0 0.2rem #018a8a;
+}
+
 
 // DARK MODE
+// HELPFUL CUES: https://github.com/wowchemy/wowchemy-hugo-themes/blob/main/modules/wowchemy/assets/scss/wowchemy/_dark.scss
+
+// body text color
+body.dark,
+.dark .docs-toc-link,
+.dark .modal button.close,
+.dark input {
+  color: rgba(250, 250, 250, 0.88); //#f7f5f0;
+}
+
+// publication titles text color
+.dark .article-title a {
+  color: rgba(250, 250, 250, 0.88); //#f7f5f0;
+}
+
+// headings text color
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: rgba(250, 250, 250, 0.9); //#f7f5f0;
+}
+
+// name text color under picture
+.dark .portrait-title h2 {
+  color: rgba(250, 250, 250, 0.9);//#f7f5f0;
+}
+
+// school text color under picture
+.dark .portrait-title h3 {
+  color: rgba(255, 255, 255, 0.54);
+}
 
 .dark {
 
-  // filter button color
+  // search bar (whole-site in upper right corner) border color
+  .form-control:focus {
+    border-color: #0da68a;
+    box-shadow: 0 0 0 0.2rem #0da68a;
+  }
+
+  // filter button color (buttons OTHER THAN 'All')
   .btn-primary {
     color: #fff;
     background-color: #0da68a;
-    border-color: #0da68a;
+    border-color: #0c947b;
     &:hover {
       color: #fff;    
-      border-color: #0da68a;           
+      border-color: #0c947b;           
       background-color: #0da68a;       
     }
     &:alert {
       color: #fff;    
-      border-color: #0da68a;           
+      border-color: #0c947b;           
       background-color: #0da68a;
     }
   }   
 
+  // 'All' filter button color
+  .btn-toolbar .btn.btn-primary:hover,
+  .btn-toolbar .btn.btn-primary:focus {
+    color: #fff;  
+    background-color: #28bfa4 !important; } // when mouse over any filter buttons (ANY!!)
+
+  .btn-toolbar .btn.btn-primary:active,
+  .btn-toolbar .btn.btn-primary.active {
+    color: #fff; 
+    background-color: #0c947b !important; } // color All color
+
+  .btn-primary:not(:disabled):not(.disabled).active:focus,
+  .btn-primary:not(:disabled):not(.disabled):active:focus,
+  .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0rem #0da185; }
+
+
+  // Publication button text and background colors
   .btn-links .btn { 
     color: #f73653;                   
     border-color: #f73653;           
@@ -112,6 +187,7 @@ a {
       border-style: none;
     }
   }
+
 } 
 
 

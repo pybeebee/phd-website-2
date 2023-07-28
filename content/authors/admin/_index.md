@@ -62,7 +62,6 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
 I am a PhD student in Computer Science at Yale University, advised by Professor [Arman Cohan](http://armancohan.com/). My research interests are in the intersection of AI and cognitive science, and I aim to draw inspiration from theories of human cognition and cognitive bias to model judgment, behavior, and ethics in AI agents. I am grateful to be supported by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
 
 As an undergraduate at MIT, I explored research topics in meta-reinforcement learning at the [Computational Cognitive Science Lab](https://cocosci.mit.edu/) under Professor [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html) and Bayesian nonparametrics at the [Fiete Lab](https://fietelab.mit.edu/) under Professor [Ila Fiete](https://mcgovern.mit.edu/profile/ila-fiete/). I also researched metacognition of emotion in the [Explorer of Perception and Attention Lab](http://epa.psy.ntu.edu.tw/) under Professor [Su-Ling Yeh](http://epa.psy.ntu.edu.tw/SuLingYeh_eng.html) at National Taiwan University and trustworthy AI methods in the [Collaborative, Learning, and Adaptive Robots Lab](https://clear-nus.github.io/) under Professor [Harold Soh](https://haroldsoh.com/) at National University of Singapore with generous support from the [Fung Foundation](https://www.fungfoundation.org/).

@@ -29,7 +29,7 @@ name = "kailitheme"
   menu_primary = "#191b1c"        # nav bar color "#101112"
   menu_text = "#fff"              # Nav bar text colors
   menu_text_active = "#018a8a"    # Nav bar 'Home' button color (whatever section you're currently on)
-  menu_title = "#fff"             # Name in nav bar color
+  menu_title =  "#fff"             # Name in nav bar color
 
   # Backgrounds
   background = "#191b1c"          # Same as odd sections?
