@@ -26,9 +26,9 @@ name = "kailitheme"
   link_hover = "#0fba9e"      # color when hover over link
 
   # Menu
-  menu_primary = "#191b1c"        # nav bar color "#101112"
+  menu_primary = "#19191a" # "#024442" #"#191b1c"   19191a     # nav bar color "#101112"
   menu_text = "#fff"              # Nav bar text colors
-  menu_text_active = "#018a8a"    # Nav bar 'Home' button color (whatever section you're currently on)
+  menu_text_active = "#0da68a" # darker green 018a8a grey 808080 red de314b green 0da68a # Nav bar 'Home' button color (whatever section you're currently on)
   menu_title =  "#fff"             # Name in nav bar color
 
   # Backgrounds

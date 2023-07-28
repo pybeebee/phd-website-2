@@ -84,12 +84,12 @@ body.dark,
 .dark .docs-toc-link,
 .dark .modal button.close,
 .dark input {
-  color: rgba(250, 250, 250, 0.88); //#f7f5f0;
+  color: #EDEADE; // rgba(255, 255, 255, 0.87); //#f7f5f0;
 }
 
 // publication titles text color
 .dark .article-title a {
-  color: rgba(250, 250, 250, 0.88); //#f7f5f0;
+  color: #EDEADE //rgba(255, 255, 255, 0.88); //#f7f5f0;
 }
 
 // headings text color
@@ -99,17 +99,12 @@ body.dark,
 .dark h4,
 .dark h5,
 .dark h6 {
-  color: rgba(250, 250, 250, 0.9); //#f7f5f0;
+  color: #EDEADE //rgba(255, 255, 255, 0.9); //#f7f5f0;
 }
 
 // name text color under picture
 .dark .portrait-title h2 {
-  color: rgba(250, 250, 250, 0.9);//#f7f5f0;
-}
-
-// school text color under picture
-.dark .portrait-title h3 {
-  color: rgba(255, 255, 255, 0.54);
+  color: #EDEADE //rgba(255, 255, 255, 0.9);//#f7f5f0;
 }
 
 .dark {

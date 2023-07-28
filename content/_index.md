@@ -30,10 +30,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Topic 1
-          tag: AI ethics
-        - name: Topic 2
-          tag: AI 
+        #- name: Topic 1
+        #  tag: AI ethics
+        #- name: Topic 2
+        #  tag: AI 
     design:
       columns: '2'
       view: compact
