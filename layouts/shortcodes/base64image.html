@@ -1,0 +1,6 @@
+{{ $base64Data := .Inner }}
+{{ $alt := .Get "alt" }}
+
+<img style="display:inline-block; vertical-align:top; margin:0px; padding:0px;" width=30px src="data:image/{{ .Get "format" }};base64,{{ $base64Data }}" alt="{{ $alt }}">
+
+
