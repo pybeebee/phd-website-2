@@ -1,7 +1,7 @@
 ---
 # Display name
-title: Gabrielle Kaili-May Liu
-subtitle: (劉凱莉)
+title: Gabrielle Kaili-May Liu (劉凱莉)
+# subtitle: 
 
 # Full name (for SEO)
 first_name: Gabrielle

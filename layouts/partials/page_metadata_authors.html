@@ -1,0 +1,32 @@
+{{/* Display author list. */}}
+
+{{- $taxonomy := "authors" }}
+{{ with .Param $taxonomy }}
+  {{ $link_authors := site.Params.link_authors | default true }}
+  {{ range $index, $name_raw := . }}
+    {{- $profile_page := site.GetPage (printf "/%s/%s" $taxonomy .) -}}
+    {{- $name := $profile_page.Title | default $name_raw -}}
+
+    <!-- SPLIT ENGLISH NAME FROM CHINESE NAME IN ADMIN PROFILE FOR PUBLICATION DISPLAY -->
+    {{- $name2 := replace $name " " "-" -}}
+    {{- $first_and_mid_name := split $name " " | first 2  -}}
+    {{- $surname := split $name2 "-" | last 2  -}}
+
+    {{- if gt $index 0 }}, {{ end -}}
+    <span {{ if site.Params.highlight_superuser | and (eq $profile_page.Params.superuser true) }}class="font-weight-bold"{{end}}>
+      {{- if and $profile_page $link_authors -}}
+        <!-- <a href="{{$profile_page.RelPermalink}}">{{$name}}</a> -->
+        <a href="{{$profile_page.RelPermalink}}"><b>
+        {{- range first 2 $first_and_mid_name -}}{{- .}} {{ end -}}
+        {{- range first 1 $surname -}}{{- .}}{{end}}</b></a>
+      {{- else -}}
+        {{$name}}
+      {{- end -}}
+    </span>
+    {{- if isset $.Params "author_notes" -}}
+      {{- with (index $.Params.author_notes $index) -}}
+        <span title="{{.}}" class="author-notes">(?)</span>
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
