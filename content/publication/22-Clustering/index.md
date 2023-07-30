@@ -37,8 +37,8 @@ featured: false
 external_link: 'https://proceedings.mlr.press/v199/schaeffer22a.html'
 
 links:
-- name: Abstract
-  text: test
+# - name: Abstract
+  # text: test
   # url: http://example.org
 url_pdf: 'https://proceedings.mlr.press/v199/schaeffer22a/schaeffer22a.pdf'
 url_code: ''

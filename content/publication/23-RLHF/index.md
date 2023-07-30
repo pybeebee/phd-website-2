@@ -31,8 +31,8 @@ featured: false
 external_link: 'https://arxiv.org/abs/2303.02891'
 
 links:
-- name: Abstract
-  text: test
+# - name: Abstract
+  # text: test
   # url: http://example.org
 url_pdf: https://arxiv.org/pdf/2303.02891.pdf
 url_code: ''

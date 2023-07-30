@@ -32,8 +32,8 @@ featured: false
 external_link: 'https://robotrights.webflow.io/'
 
 links:
-- name: Abstract
-  text: test
+# - name: Abstract
+  # text: test
   # url: http://example.org
 - name: Access Curriculum
   url: https://robotrights.webflow.io/

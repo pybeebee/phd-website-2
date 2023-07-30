@@ -32,7 +32,7 @@ summary: 'Metacognition of emotion refers to the ability to evaluate success at 
 featured: false
 
 # Optional external URL for project (replaces project detail page).
-# external_link: 'pybeebee.com'
+external_link: 'https://pybeebee.com/'
 
 links:
 #- name: Abstract

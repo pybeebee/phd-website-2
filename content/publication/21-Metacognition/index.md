@@ -34,8 +34,8 @@ featured: false
 external_link: 'https://journals.sagepub.com/toc/peca/50/1_suppl'
 
 links:
-- name: Abstract
-  text: test
+# - name: Abstract
+  # text: test
   # url: http://example.org
 url_pdf: 'https://journals.sagepub.com/doi/epub/10.1177/03010066211059887'
 url_code: ''
