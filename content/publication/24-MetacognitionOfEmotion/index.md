@@ -18,8 +18,8 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: *Scientific Reports*
-publication_short: *Scientific Reports*
+publication: "*Scientific Reports*"
+publication_short: "*Scientific Reports*"
 
 abstract: "Metacognition of emotion (meta-emotion) refers to the ability to evaluate and identify one’s emotional feelings. No previous study has defined and measured this construct through objective and quantitative procedures. We established a reliable method to measure meta-emotion. With a two-interval forced-choice procedure, participants selected which of two pictures elicited stronger positive emotion; via the Law of Comparative Judgment, their responses were used to compute individual psychological distances for the emotional responses triggered by the pictures. Then, participants were asked to judge whether a pre-exposed picture induced a stronger positive emotion than the median of that elicited by the whole picture set, followed by a confidence rating. By utilizing each individual’s psychological distance, the correctness of a participant’s emotional experience was quantified by dʹ, and meta-emotion was quantified using meta-dʹ, M-ratio, and M-diff as indices of metacognitive sensitivity and efficiency based on Signal-Detection Theory. Test–retest reliabilities, validated by Spearman correlation, were observed in meta-dʹ, M-ratio, and marginally with M-diff, suggesting the stability of meta-emotion in the current design. This study unveils a validated procedure to quantify meta-emotion, extendable for assessing metacognition of other subjective feelings. Nevertheless, caution is warranted in interpretation, as the measured processes may be influenced by non-metacognitive factors."
 
