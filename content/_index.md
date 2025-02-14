@@ -42,7 +42,7 @@ sections:
     content:
       title: Teaching
       text: |2-
-        **Head Teaching Assistant, CPSC 477/577 Natural Language Processing,** Spring 2025  
+        **Head Teaching Assistant, [CPSC 477/577 Natural Language Processing](https://nlp.cs.yale.edu/cpsc477/),** Spring 2025  
         *Department of Computer Science, Yale University, New Haven, CT*  
 
         **Instructor, [MIT Menezes Challenge PRIMES Circle](https://math.mit.edu/research/highschool/primes/circle/),** 2021-2023  
