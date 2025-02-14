@@ -19,8 +19,8 @@ publishDate: "2024-11-01T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Submitted to ARR October 2024*"
-publication_short: "*Submitted to ARR October 2024*"
+publication: "*Submitted to ARR December 2024*"
+publication_short: "*Submitted to ARR December 2024*"
 
 abstract: "Multi-document (MD) processing is crucial for LLMs to handle real-world tasks such as summarization and question-answering across large sets of documents. While LLMs have improved at processing long inputs, MD contexts still present challenges, such as managing inter-document dependencies, redundancy, and incoherent structures. We introduce MDCure, a scalable and effective fine-tuning pipeline to enhance the MD capabilities of LLMs without the computational cost of pre-training or reliance on human annotated data. MDCure is based on generation of high-quality synthetic MD instruction data from sets of related articles via targeted prompts. We further introduce MDCureRM, a multi-objective reward model which filters generated data based on their training utility for MD settings. With MDCure, we fine-tune a variety of LLMs, from the FlanT5, Qwen2, and LLAMA3.1 model families, up to 70B parameters in size. Extensive evaluations on a wide range of MD and long-context benchmarks spanning various tasks show MDCure consistently improves performance over pre-trained baselines and over corresponding base models by up to 75.5%. Our code, datasets, and models are available at https://github.com/yale-nlp/MDCure."
 

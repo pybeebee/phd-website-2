@@ -42,13 +42,15 @@ sections:
     content:
       title: Teaching
       text: |2-
+        **Head Teaching Assistant, CPSC 477/577 Natural Language Processing,** Spring 2025 
+        *Department of Computer Science, Yale University, New Haven, CT*  
+
         **Instructor, [MIT Menezes Challenge PRIMES Circle](https://math.mit.edu/research/highschool/primes/circle/),** 2021-2023  
         *Department of Mathematics, MIT, Cambridge, MA*  
         Fundamentals of Group Theory  
 
         **Lab Assistant, 6.036 Introduction to Machine Learning,** Spring 2021  
         *Department of Electrical Engineering & Computer Science, MIT, Cambridge, MA*  
-        Faculty Supervisor: Dr. Tomás Lozano-Pérez  
 
         **Teaching Assistant, [Research Science Institute (RSI)](https://www.cee.org/programs/research-science-institute),** Summer 2019  
         *MIT, Cambridge, MA*  
