@@ -28,7 +28,7 @@ abstract: "A critical component in the trustworthiness of LLMs is reliable uncer
 # Summary. An optional shortened abstract.
 summary: 'For LLMs to be deployed reliably and responsibly, it is essential that their linguistically expressed
 confidence faithfully reflect their internal uncertainty. This paper presents the first study to systematically and
-comprehensively benchmark faithful calibration of LLMs and proposes MetaFaith, the first method to improve faithful calibration of any instructionfollowing LLM in a task-agnostic manner.'
+comprehensively benchmark faithful calibration of LLMs and proposes MetaFaith, the first method to improve faithful calibration of any instruction-following LLM in a task-agnostic manner.'
 
 #tags:
 #- LLMs
