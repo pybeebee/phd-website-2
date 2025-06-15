@@ -40,8 +40,8 @@ featured: false
 external_link: 'https://arxiv.org/abs/2505.24858'
 
 links:
-- name<!-- : HF Repo
-  ur -->l: https://huggingface.co/collections/yale-nlp/mdcure-6724914875e87f41e5445395
+#- name: HF Repo
+#  url: https://huggingface.co/collections/yale-nlp/mdcure-6724914875e87f41e5445395
 url_pdf: 'https://arxiv.org/pdf/2505.24858'
 url_code: 'https://github.com/yale-nlp/MetaFaith'
 url_dataset: ''
