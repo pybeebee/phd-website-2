@@ -33,17 +33,17 @@ summary: 'Multi-document (MD) processing is crucial for LLMs to handle real-worl
 featured: false
 
 # Optional external URL for project (replaces project detail page).
-external_link: 'https://arxiv.org/abs/2410.23463'
+external_link: 'https://aclanthology.org/2025.acl-long.1418'
 
 links:
 - name: HF Repo
   url: https://huggingface.co/collections/yale-nlp/mdcure-6724914875e87f41e5445395
-url_pdf: 'https://arxiv.org/pdf/2410.23463'
+url_pdf: 'https://aclanthology.org/2025.acl-long.1418.pdf'
 url_code: 'https://github.com/yale-nlp/MDCure'
 url_dataset: ''
-url_poster: ''
+url_poster: 'https://drive.google.com/file/d/1FVL0skAT3ygYuQ8qIMkece0cD5aVbcFi/view?usp=sharing'
 url_project: ''
-url_slides: ''
+url_slides: 'https://drive.google.com/file/d/1GGtjDdx3lMsdW2n_k4FJBhzMLyudraeO/view?usp=sharing'
 url_source: ''
 url_video: ''
 
