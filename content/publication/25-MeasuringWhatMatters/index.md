@@ -6,7 +6,7 @@ authors:
 - Angelika Romanou
 - Franziska Sofia Hafner
 - Harry Mayne
-- ...
+- Others
 - admin
 - Others
 - Adam Mahdi
@@ -43,6 +43,8 @@ external_link: 'https://oxrml.com/measuring-what-matters'
 links:
 - name: HF Repo
   url: https://huggingface.co/datasets/ambean/construct-validity-review
+- name: Checklist
+  url: https://oxrml.com/measuring-what-matters/checklist.html
 url_pdf: 'https://openreview.net/pdf?id=mdA5lVvNcU'
 url_code: 'https://github.com/pybeebee/CRUMQs'
 url_dataset: ''
