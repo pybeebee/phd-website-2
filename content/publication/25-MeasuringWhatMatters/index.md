@@ -6,7 +6,9 @@ authors:
 - Angelika Romanou
 - Franziska Sofia Hafner
 - Harry Mayne
+- ...
 - admin
+- ...
 - Adam Mahdi
 date: "2025-10-30T00:00:00Z"
 doi: ""
@@ -27,7 +29,7 @@ publication_short: "*NeurIPS*"
 abstract: "Real-world use cases often present RAG systems with complex queries for which relevant information is missing from the corpus or is incomplete. In these settings, RAG systems must be able to reject unanswerable, out-of-scope queries and identify failures of retrieval and multi-hop reasoning. Despite this, existing RAG benchmarks rarely reflect realistic task complexity for multi-hop or out-of-scope questions, which often can be cheated via disconnected reasoning (i.e., solved without genuine multi-hop inference) or require only simple factual recall. This limits the ability for such benchmarks to uncover limitations of existing RAG systems. To address this gap, we present the first pipeline for automatic, difficulty-controlled creation of un*c*heatable, *r*ealistic, *u*nanswerable, and *m*ulti-hop *q*uerie*s* (CRUMQs), adaptable to any corpus and domain. We use our pipeline to create CRUMQs over two popular RAG datasets and demonstrate its effectiveness via benchmark experiments on leading retrieval-augmented LLMs. Results show that compared to prior RAG benchmarks, CRUMQs are highly challenging for RAG systems and achieve up to 81.0% reduction in cheatability scores. More broadly, our pipeline offers a simple way to enhance benchmark difficulty and realism and drive development of more capable RAG systems."
 
 # Summary. An optional shortened abstract.
-summary: 'We present the first pipeline for automatic, difficulty-controlled creation of uncheatable, realistic, unanswerable, and multi-hop queries (CRUMQs), adaptable to any corpus and domain. This offers a simple way to enhance benchmark difficulty and realism and drive development of more capable RAG systems.'
+summary: 'LLM benchmarks are essential for tracking progress and ensuring safety in AI, but most benchmarks don't measure what matters, as suggested by our systematic review of 445 LLM benchmarks from top AI conferences. A taxonomy of these failures was therefore built and translated into an operational checklist to help future benchmark authors demonstrate construct validity.'
 
 #tags:
 #- LLMs
