@@ -29,7 +29,7 @@ publication_short: "*NeurIPS*"
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: 'LLM benchmarks are essential for tracking progress and ensuring safety in AI, but most benchmarks don't measure what matters, as suggested by our systematic review of 445 LLM benchmarks from top AI conferences. A taxonomy of these failures was therefore built and translated into an operational checklist to help future benchmark authors demonstrate construct validity.'
 
 #tags:
 #- LLMs
