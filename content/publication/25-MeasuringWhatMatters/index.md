@@ -36,16 +36,16 @@ summary: ''
 featured: false
 
 # Optional external URL for project (replaces project detail page).
-external_link: 'https://www.arxiv.org/abs/2510.11956'
+external_link: 'https://oxrml.com/measuring-what-matters'
 
 links:
-#- name: HF Repo
-#  url: https://huggingface.co/collections/yale-nlp/mdcure-6724914875e87f41e5445395
-url_pdf: 'https://www.arxiv.org/pdf/2510.11956'
+- name: HF Repo
+  url: https://huggingface.co/datasets/ambean/construct-validity-review
+url_pdf: 'https://openreview.net/pdf?id=mdA5lVvNcU'
 url_code: 'https://github.com/pybeebee/CRUMQs'
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://oxrml.com/measuring-what-matters'
 url_slides: ''
 url_source: ''
 url_video: ''
