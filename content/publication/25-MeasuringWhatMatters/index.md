@@ -6,11 +6,9 @@ authors:
 - Angelika Romanou
 - Franziska Sofia Hafner
 - Harry Mayne
-- "..."
 - admin
-- "..."
 - Adam Mahdi
-date: "2025-010-30T00:00:00Z"
+date: "2025-10-30T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
