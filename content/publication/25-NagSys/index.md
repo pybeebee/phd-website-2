@@ -1,19 +1,14 @@
 ---
-title: "Auto-ARGUE: LLM-Based Report Generation Evaluation"
+title: "Incorporating Q&A Nuggets into Retrieval-Augmented Generation"
 authors:
-- William Gantt Walden
-- Marc Mason
-- Orion Weller
 - Laura Dietz
-- John Conroy
-- Neil Molino
-- Hannah Recknor
 - Bryan Li
 - admin
-- Yu Hou
-- Dawn Lawrie
-- James Mayfield
+- Jia-Huei Ju
 - Eugene Yang
+- Dawn Lawrie
+- William Gantt Walden
+- James Mayfield
 date: "2025-09-30T00:00:00Z"
 doi: ""
 
@@ -24,17 +19,16 @@ publishDate: "2024-11-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Submission to ECIR*"
-publication_short: "*Submission to ECIR*"
+publication: "*ECIR*"
+publication_short: "*ECIR*"
 
-abstract: "Generation of long-form, citation-backed reports is a primary use case for retrieval augmented generation (RAG) systems. While opensource evaluation tools exist for various RAG tasks, ones tailored to
-report generation (RG) are lacking. Accordingly, we introduce AutoARGUE, a robust LLM-based implementation of the recently proposed ARGUE framework for RG evaluation. We present analysis of AutoARGUE on the RG pilot task from the TREC 2024 NeuCLIR track, showing good system-level correlations with human judgments. We further release a web app for visualization of Auto-ARGUE outputs."
+abstract: "We present NagSys, a Nugget-Augmented Generation System that preserves explicit citation provenance by constructing a bank of Q&A nuggets from retrieved documents and uses them to guide extraction, selection, and report generation. Reasoning on nuggets avoids repeated information through clear and interpretable Q&A semantics—rather than opaque cluster abstractions—while maintaining citation provenance throughout the entire generation process. Evaluated on the TREC NeuCLIR 2024 collection, our NagSys system substantially outperforms Ginger, a recent nugget-based RAG system, in nugget recall, density, and citation grounding."
 
 # Summary. An optional shortened abstract.
-summary: 'Report generation (RG) is a RAG task that aims to produce a long-form, citation-attributed response to a complex user query. We present the first public, automated, LLM-based implementation of the ARGUE evaluation framework for RG.'
+summary: 'Nugget-based evaluation methods have emerged as the standard for measuring relevance of long-form RAG responses. We argue that nuggets are valuable also for guiding retrieval and generation, and we present a nugget-centric RAG system that automatically constructs its own nugget bank and uses it as a control signal throughout the pipeline.'
 
 #tags:
 #- LLMs
@@ -43,12 +37,12 @@ summary: 'Report generation (RG) is a RAG task that aims to produce a long-form,
 featured: false
 
 # Optional external URL for project (replaces project detail page).
-external_link: 'https://arxiv.org/abs/2509.26184'
+external_link: ''
 
 links:
 #- name: HF Repo
 #  url: https://huggingface.co/collections/yale-nlp/mdcure-6724914875e87f41e5445395
-url_pdf: 'https://arxiv.org/pdf/2509.26184'
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''

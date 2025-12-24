@@ -6,9 +6,9 @@ authors:
 - Angelika Romanou
 - Franziska Sofia Hafner
 - Harry Mayne
-- ...
+- "..."
 - admin
-- ...
+- "..."
 - Adam Mahdi
 date: "2025-010-30T00:00:00Z"
 doi: ""
@@ -26,7 +26,7 @@ publication_types: ["1"]
 publication: "NeurIPS"
 publication_short: "NeurIPS"
 
-abstract: "Evaluating large language models (LLMs) is crucial for both assessing their capabilities and identifying safety or robustness issues prior to deployment. Reliably measuring abstract and complex phenomena such as safety and robustness requires strong construct validity, that is, having measures that represent what matters to the phenomenon. With a team of 29 expert reviewers, we conduct a systematic review of 445 LLM benchmarks from leading conferences in natural language processing and machine learning. Across the reviewed articles, we find patterns related to the measured phenomena, tasks, and scoring metrics which undermine the validity of the resulting claims. To address these shortcomings, we provide eight key recommendations and detailed actionable guidance to researchers and practitioners in developing LLM benchmarks."
+abstract: "Evaluating large language models (LLMs) is crucial for both assessing their capabilities and identifying safety or robustness issues prior to deployment. Reliably measuring abstract and complex phenomena such as ‘safety’ and ‘robustness’ requires strong construct validity, that is, having measures that represent what matters to the phenomenon. With a team of 29 expert reviewers, we conduct a systematic review of 445 LLM benchmarks from leading conferences in natural language processing and machine learning. Across the reviewed articles, we find patterns related to the measured phenomena, tasks, and scoring metrics which undermine the validity of the resulting claims. To address these shortcomings, we provide eight key recommendations and detailed actionable guidance to researchers and practitioners in developing LLM benchmarks"
 
 # Summary. An optional shortened abstract.
 summary: 'LLM benchmarks are essential for tracking progress and ensuring safety in AI, but most benchmarks don't measure what matters, as suggested by our systematic review of 445 LLM benchmarks from top AI conferences. A taxonomy of these failures was therefore built and translated into an operational checklist to help future benchmark authors demonstrate construct validity.'
