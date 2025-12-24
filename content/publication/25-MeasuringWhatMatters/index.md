@@ -24,10 +24,10 @@ publication_types: ["1"]
 publication: "*NeurIPS*"
 publication_short: "*NeurIPS*"
 
-abstract: "Evaluating large language models (LLMs) is crucial for both assessing their capabilities and identifying safety or robustness issues prior to deployment. Reliably measuring abstract and complex phenomena such as safety and robustness requires strong construct validity, that is, having measures that represent what matters to the phenomenon. With a team of 29 expert reviewers, we conduct a systematic review of 445 LLM benchmarks from leading conferences in natural language processing and machine learning. Across the reviewed articles, we find patterns related to the measured phenomena, tasks, and scoring metrics which undermine the validity of the resulting claims. To address these shortcomings, we provide eight key recommendations and detailed actionable guidance to researchers and practitioners in developing LLM benchmarks."
+abstract: "Real-world use cases often present RAG systems with complex queries for which relevant information is missing from the corpus or is incomplete. In these settings, RAG systems must be able to reject unanswerable, out-of-scope queries and identify failures of retrieval and multi-hop reasoning. Despite this, existing RAG benchmarks rarely reflect realistic task complexity for multi-hop or out-of-scope questions, which often can be cheated via disconnected reasoning (i.e., solved without genuine multi-hop inference) or require only simple factual recall. This limits the ability for such benchmarks to uncover limitations of existing RAG systems. To address this gap, we present the first pipeline for automatic, difficulty-controlled creation of un*c*heatable, *r*ealistic, *u*nanswerable, and *m*ulti-hop *q*uerie*s* (CRUMQs), adaptable to any corpus and domain. We use our pipeline to create CRUMQs over two popular RAG datasets and demonstrate its effectiveness via benchmark experiments on leading retrieval-augmented LLMs. Results show that compared to prior RAG benchmarks, CRUMQs are highly challenging for RAG systems and achieve up to 81.0% reduction in cheatability scores. More broadly, our pipeline offers a simple way to enhance benchmark difficulty and realism and drive development of more capable RAG systems."
 
 # Summary. An optional shortened abstract.
-summary: 'LLM benchmarks are essential for tracking progress and ensuring safety in AI, but most benchmarks don't measure what matters, as suggested by our systematic review of 445 LLM benchmarks from top AI conferences. A taxonomy of these failures was therefore built and translated into an operational checklist to help future benchmark authors demonstrate construct validity.'
+summary: 'We present the first pipeline for automatic, difficulty-controlled creation of uncheatable, realistic, unanswerable, and multi-hop queries (CRUMQs), adaptable to any corpus and domain. This offers a simple way to enhance benchmark difficulty and realism and drive development of more capable RAG systems.'
 
 #tags:
 #- LLMs
@@ -36,16 +36,16 @@ summary: 'LLM benchmarks are essential for tracking progress and ensuring safety
 featured: false
 
 # Optional external URL for project (replaces project detail page).
-external_link: 'https://oxrml.com/measuring-what-matters'
+external_link: 'https://www.arxiv.org/abs/2510.11956'
 
 links:
-- name: HF Repo
-  url: https://huggingface.co/datasets/ambean/construct-validity-review
-url_pdf: 'https://openreview.net/pdf?id=mdA5lVvNcU'
-url_code: ''
+#- name: HF Repo
+#  url: https://huggingface.co/collections/yale-nlp/mdcure-6724914875e87f41e5445395
+url_pdf: 'https://www.arxiv.org/pdf/2510.11956'
+url_code: 'https://github.com/pybeebee/CRUMQs'
 url_dataset: ''
 url_poster: ''
-url_project: 'https://oxrml.com/measuring-what-matters'
+url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
