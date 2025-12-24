@@ -37,17 +37,17 @@ comprehensively benchmark faithful calibration of LLMs and proposes MetaFaith, t
 featured: false
 
 # Optional external URL for project (replaces project detail page).
-external_link: 'https://arxiv.org/abs/2505.24858'
+external_link: 'https://aclanthology.org/2025.emnlp-main.1505/'
 
 links:
 #- name: HF Repo
 #  url: https://huggingface.co/collections/yale-nlp/mdcure-6724914875e87f41e5445395
-url_pdf: 'https://arxiv.org/pdf/2505.24858'
+url_pdf: 'https://aclanthology.org/2025.emnlp-main.1505.pdf'
 url_code: 'https://github.com/yale-nlp/MetaFaith'
 url_dataset: ''
-url_poster: ''
+url_poster: 'https://drive.google.com/file/d/1RMiHr_JK9pAcrv5EnylK4egn8nWSFTX1/view?usp=sharing'
 url_project: ''
-url_slides: ''
+url_slides: 'https://drive.google.com/file/d/1uGp_p5TiZrDT8XaukTKzhEIvm_kh6m-P/view?usp=sharing'
 url_source: ''
 url_video: ''
 
