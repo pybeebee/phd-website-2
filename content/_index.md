@@ -42,7 +42,7 @@ sections:
     content:
       title: Teaching
       text: |2-
-        **Head Teaching Assistant, [CPSC 4770/5770 Large Language Models -- From Foundations to Modern Practice](https://nlp.cs.yale.edu/cpsc4770/),** Spring 2026 
+        **Head Teaching Assistant, [CPSC 4770/5770 Large Language Models -- From Foundations to Modern Practice](https://nlp.cs.yale.edu/cpsc4770/),** Spring 2026  
         *Department of Computer Science, Yale University, New Haven, CT*  
 
         **Head Teaching Assistant, CPSC 477/577 Natural Language Processing -- Language Modeling,** Spring 2025  
