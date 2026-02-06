@@ -27,8 +27,8 @@ publishDate: "2024-11-01T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Submission to ECIR*"
-publication_short: "*Submission to ECIR*"
+publication: "*Submission to SIGIR*"
+publication_short: "*Submission to SIGIR*"
 
 abstract: "Generation of long-form, citation-backed reports is a primary use case for retrieval augmented generation (RAG) systems. While opensource evaluation tools exist for various RAG tasks, ones tailored to
 report generation (RG) are lacking. Accordingly, we introduce AutoARGUE, a robust LLM-based implementation of the recently proposed ARGUE framework for RG evaluation. We present analysis of AutoARGUE on the RG pilot task from the TREC 2024 NeuCLIR track, showing good system-level correlations with human judgments. We further release a web app for visualization of Auto-ARGUE outputs."
