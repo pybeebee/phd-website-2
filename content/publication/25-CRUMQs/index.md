@@ -1,5 +1,5 @@
 ---
-title: "Evaluating Retrieval-Augmented Generation Systems on Unanswerable, Uncheatable, Realistic, Multi-hop Queries"
+title: "Investigating Retrieval-Augmented Generation Systems on Unanswerable, Uncheatable, Realistic, Multi-hop Queries"
 authors:
 - admin
 - Bryan Li
