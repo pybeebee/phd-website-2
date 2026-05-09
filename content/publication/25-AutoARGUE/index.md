@@ -24,14 +24,13 @@ publishDate: "2024-11-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Submission to SIGIR*"
-publication_short: "*Submission to SIGIR*"
+publication: "*SIGIR*"
+publication_short: "*SIGIR*"
 
-abstract: "Generation of long-form, citation-backed reports is a primary use case for retrieval augmented generation (RAG) systems. While opensource evaluation tools exist for various RAG tasks, ones tailored to
-report generation (RG) are lacking. Accordingly, we introduce AutoARGUE, a robust LLM-based implementation of the recently proposed ARGUE framework for RG evaluation. We present analysis of AutoARGUE on the RG pilot task from the TREC 2024 NeuCLIR track, showing good system-level correlations with human judgments. We further release a web app for visualization of Auto-ARGUE outputs."
+abstract: "Generation of citation-backed reports is a primary use case for retrieval-augmented generation (RAG) systems. While open-source evaluation tools exist for various RAG tasks, tools designed for report generation are lacking. Accordingly, we introduce AutoARGUE, a robust LLM-based implementation of the recently proposed ARGUE framework for report generation evaluation. We present analysis of Auto-ARGUE on the report generation pilot task from the TREC 2024 NeuCLIR track and on two tasks from the TREC 2024 RAG track, showing good system-level correlations with human judgments. Additionally, we release ARGUE-viz, a web app for visualization and fine-grained analysis of Auto-ARGUE judgments and scores."
 
 # Summary. An optional shortened abstract.
 summary: 'Report generation (RG) is a RAG task that aims to produce a long-form, citation-attributed response to a complex user query. We present the first public, automated, LLM-based implementation of the ARGUE evaluation framework for RG.'
@@ -49,7 +48,7 @@ links:
 #- name: HF Repo
 #  url: https://huggingface.co/collections/yale-nlp/mdcure-6724914875e87f41e5445395
 url_pdf: 'https://arxiv.org/pdf/2509.26184'
-url_code: ''
+url_code: 'https://github.com/hltcoe/auto-argue'
 url_dataset: ''
 url_poster: ''
 url_project: ''

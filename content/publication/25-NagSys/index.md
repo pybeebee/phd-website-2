@@ -25,7 +25,7 @@ publication_types: ["1"]
 publication: "*ECIR*"
 publication_short: "*ECIR*"
 
-abstract: "We present NagSys, a Nugget-Augmented Generation System that preserves explicit citation provenance by constructing a bank of Q&A nuggets from retrieved documents and uses them to guide extraction, selection, and report generation. Reasoning on nuggets avoids repeated information through clear and interpretable Q&A semantics—rather than opaque cluster abstractions—while maintaining citation provenance throughout the entire generation process. Evaluated on the TREC NeuCLIR 2024 collection, our NagSys system substantially outperforms Ginger, a recent nugget-based RAG system, in nugget recall, density, and citation grounding."
+abstract: "RAGE systems integrate ideas from automatic evaluation (E) into Retrieval-augmented Generation (RAG). As one such example, we present Crucible, a Nugget-Augmented Generation System that preserves explicit citation provenance by constructing a bank of Q&A nuggets from retrieved documents and uses them to guide extraction, selection, and report generation. Reasoning on nuggets avoids repeated information through clear and interpretable Q&A semantics—instead of opaque cluster abstractions—while maintaining citation provenance throughout the entire generation process. Evaluated on the TREC NeuCLIR 2024 collection, our Crucible system substantially outperforms Ginger, a recent nugget-based RAG system, in nugget recall, density, and citation grounding."
 
 # Summary. An optional shortened abstract.
 summary: 'Nugget-based evaluation methods have emerged as the standard for measuring relevance of long-form RAG responses. We argue that nuggets are valuable also for guiding retrieval and generation, and we present a nugget-centric RAG system that automatically constructs its own nugget bank and uses it as a control signal throughout the pipeline.'
@@ -42,8 +42,8 @@ external_link: ''
 links:
 #- name: HF Repo
 #  url: https://huggingface.co/collections/yale-nlp/mdcure-6724914875e87f41e5445395
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://arxiv.org/pdf/2601.13222'
+url_code: 'https://github.com/hltcoe/ecir26-crucible-system-appendix/'
 url_dataset: ''
 url_poster: ''
 url_project: ''
