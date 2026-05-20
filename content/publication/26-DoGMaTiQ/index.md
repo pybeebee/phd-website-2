@@ -1,5 +1,5 @@
 ---
-title: "Incorporating Q&A Nuggets into Retrieval-Augmented Generation"
+title: "DoGMaTiQ: Automated Generation of Question-and-Answer Nuggets for Report Evaluation"
 authors:
 - Bryan Li
 - William Gantt Walden
