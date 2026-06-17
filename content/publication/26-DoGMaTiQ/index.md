@@ -5,10 +5,10 @@ authors:
 - William Gantt Walden
 - Yu Hou
 - admin
+- Chris Callison-Burch
 - Dawn Lawrie
 - James Mayfield
 - Eugene Yang
-- Chris Callison-Burch
 - Laura Dietz
 date: "2026-03-29T00:00:00Z"
 doi: ""
@@ -23,8 +23,8 @@ publishDate: "2024-11-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Submission to SIGIR ICTIR*"
-publication_short: "*Submission to SIGIR ICTIR*"
+publication: "*SIGIR ICTIR*"
+publication_short: "*SIGIR ICTIR*"
 
 abstract: "Evaluation of long-form, citation-backed reports has lately received significant attention due to the wide-scale adoption of retrieval-augmented generation (RAG) systems. Core to many evaluation frameworks is the use of atomic facts, or nuggets, to assess a report’s coverage of query-relevant information attested in the underlying collection. While nuggets have traditionally been represented as short statements, recent work has used question-answer (QA) representations, enabling fine-grained evaluations that decouple the information need (i.e. the question) from the potentially diverse content that satisfies it (i.e. its answers). A persistent challenge for nugget-based evaluation is the need to manually curate sets of nuggets for each topic in a test collection—a laborious process that scales poorly to novel information needs. This challenge is acute in cross-lingual settings, where information is found in multilingual source documents. Accordingly, we introduce DoGMaTiQ, a pipeline for generating high-quality QA-based nugget sets in three stages: (1) document-grounded nugget generation, (2) paraphrase clustering, and (3) nugget subselection based on principled quality criteria. We integrate DoGMaTiQ nuggets with Auto-ARGUE—a recent nugget-based evaluation framework—to enable fully automatic evaluation of generated reports. We conduct extensive experiments on two cross-lingual TREC shared tasks, NeuCLIR and RAGTIME, showing strong rank correlations with both human-in-the-loop and fully manual judgments. Finally, detailed analysis of our pipeline reveals that a strong LLM nugget generator is key, and that the system rankings induced by DoGMaTiQ are robust to outlier systems. We facilitate future research in report evaluation by publicly releasing our code and artifacts."
 
