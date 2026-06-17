@@ -1,5 +1,5 @@
 ---
-title: "Can LLMs Use Linguistic Uncertainty Markers to Reliably Reflect Intrinsic Confidence?"
+title: "Quantifying Faithful Confidence Expression in Large Reasoning Models"
 authors:
 - admin *
 - Areeb Gani*
