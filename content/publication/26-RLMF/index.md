@@ -39,8 +39,8 @@ external_link: ''
 links:
 #- name: HF Repo
 #  url: https://huggingface.co/collections/yale-nlp/mdcure-6724914875e87f41e5445395
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://arxiv.org/pdf/2606.32032'
+url_code: 'https://github.com/yale-nlp/RLMF'
 url_dataset: ''
 url_poster: ''
 url_project: ''
