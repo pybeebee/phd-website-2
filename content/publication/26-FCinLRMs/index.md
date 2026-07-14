@@ -1,9 +1,9 @@
 ---
 title: "Quantifying Faithful Confidence Expression in Large Reasoning Models"
 authors:
-- admin *
-- Areeb Gani*
-- Asal Meskin*
+- admin
+- Areeb Gani
+- Asal Meskin
 - Arman Cohan
 date: "2026-04-29T00:00:00Z"
 doi: ""
