@@ -26,7 +26,7 @@ abstract: "Metacognition is a critical component of intelligence which describes
 
 # Summary. An optional shortened abstract.
 summary: "Metacognition is core to intelligence and describes the ability to monitor and regulate one's own cognition. Yet LLMs exhibit systemic deficiencies in key metacognitive faculties. Since monitoring task performance and adapting behavior accordingly are central to metacognition, we posit that models capable of accurately judging their own performance are better positioned to improve it, making metacognitive signals a natural source of supervision during post-training. We introduce reinforcement learning with metacognitive feedback (RLMF), a training paradigm to reward models for exhibiting good performance 𝗮𝗻𝗱 good metacognition. We also propose metacognitive data selection: using a model's self-assessments to choose informative training samples. We showcase the value of RLMF & MDS by applying them to tackle faithful calibration, challenging even for frontier LLMs, achieving SOTA results while improving metacognitive monitoring in LLMs. <br>
-🗞️ Press Coverage: [Forbes](https://www.forbes.com/sites/lanceeliot/2026/07/19/reinforcement-learning-with-metacognitive-feedback-is-offered-as-a-next-gen-way-to-shape-ai-llms/)"
+&emsp; 🗞️ Press Coverage: [Forbes](https://www.forbes.com/sites/lanceeliot/2026/07/19/reinforcement-learning-with-metacognitive-feedback-is-offered-as-a-next-gen-way-to-shape-ai-llms/)"
 
 #tags:
 #- LLMs
