@@ -75,6 +75,6 @@ iVBORw0KGgoAAAANSUhEUgAAAGsAAABfCAYAAADvVDm3AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
 {{< /base64image >}}
 
 ---
-News
+🗞️ News
 
-* 🗞️ Our metacognition-inspired training method for LLMs, RLMF (reinforcement learning with metacognitive feedback), was covered by [Forbes](https://www.forbes.com/sites/lanceeliot/2026/07/19/reinforcement-learning-with-metacognitive-feedback-is-offered-as-a-next-gen-way-to-shape-ai-llms/)!
+* [19-07-2026] Our metacognition-inspired training method for LLMs, RLMF (reinforcement learning with metacognitive feedback), was covered by [Forbes](https://www.forbes.com/sites/lanceeliot/2026/07/19/reinforcement-learning-with-metacognitive-feedback-is-offered-as-a-next-gen-way-to-shape-ai-llms/)!
