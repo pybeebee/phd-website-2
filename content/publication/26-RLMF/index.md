@@ -45,7 +45,7 @@ url_code: 'https://github.com/yale-nlp/RLMF'
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'https://drive.google.com/file/d/1OuF_19ZjVp4CVqtInmxW83Ba0WhBRBAq/view?usp=sharing'
 url_source: ''
 url_video: ''
 

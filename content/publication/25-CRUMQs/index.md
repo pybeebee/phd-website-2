@@ -42,7 +42,7 @@ links:
 url_pdf: 'https://www.arxiv.org/pdf/2510.11956'
 url_code: 'https://github.com/pybeebee/CRUMQs'
 url_dataset: ''
-url_poster: ''
+url_poster: 'https://drive.google.com/file/d/1QcB5hlrcMnqln2ugFIAfmEq4Hi580E45/view?usp=sharing'
 url_project: ''
 url_slides: ''
 url_source: ''
