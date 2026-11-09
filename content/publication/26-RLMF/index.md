@@ -43,7 +43,7 @@ links:
 url_pdf: 'https://arxiv.org/pdf/2606.32032'
 url_code: 'https://github.com/yale-nlp/RLMF'
 url_dataset: ''
-url_poster: ''
+url_poster: 'https://drive.google.com/file/d/1G2nsAAWQ7Zqmgnm241I8XjzkIFrWa-St/view?usp=sharing'
 url_project: ''
 url_slides: 'https://drive.google.com/file/d/1VcFjOQkjsumWakr8D__YzvPaR0DTx9na/view?usp=sharing'
 url_source: ''

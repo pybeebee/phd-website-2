@@ -39,9 +39,9 @@ links:
 url_pdf: 'https://arxiv.org/pdf/2605.28778'
 url_code: 'https://github.com/yale-nlp/marker_internal_confidence'
 url_dataset: ''
-url_poster: ''
+url_poster: 'https://drive.google.com/file/d/1V9KbvOd1RE95FuTIf9FFFdym6eum9Bt1/view?usp=sharing'
 url_project: ''
-url_slides: ''
+url_slides: 'https://drive.google.com/file/d/1U_9ZW3vPBpitjHF_2fQAheoWYoKueeMA/view?usp=sharing'
 url_source: ''
 url_video: ''
 
