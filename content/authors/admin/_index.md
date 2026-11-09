@@ -77,4 +77,5 @@ iVBORw0KGgoAAAANSUhEUgAAAGsAAABfCAYAAADvVDm3AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
 ---
 📰️ News
 
+* [13-11-2026] On this date, I will give a talk on Reliable Language Models Through the Lens of Metacognition as part of the [Human x AI](https://socialscience.ai/) lecture series at the [London School of Economics and Political Science (LSE)](https://www.lse.ac.uk/)! 
 * [19-07-2026] Our metacognition-inspired training method for LLMs, RLMF (reinforcement learning with metacognitive feedback), was covered by [Forbes](https://www.forbes.com/sites/lanceeliot/2026/07/19/reinforcement-learning-with-metacognitive-feedback-is-offered-as-a-next-gen-way-to-shape-ai-llms/)!
