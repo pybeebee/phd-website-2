@@ -42,6 +42,9 @@ sections:
     content:
       title: Teaching
       text: |2-
+        **Head Teaching Assistant, [CPSC 4880/5880 Advances in Frontier AI Models](https://nlp.cs.yale.edu/cpsc4880/),** Fall 2026  
+        *Department of Computer Science, Yale University, New Haven, CT*  
+
         **Head Teaching Assistant, [CPSC 4770/5770 Large Language Models -- From Foundations to Modern Practice](https://nlp.cs.yale.edu/cpsc4770/),** Spring 2026  
         *Department of Computer Science, Yale University, New Haven, CT*  
 
